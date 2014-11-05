@@ -11,11 +11,11 @@ font-family:sans-serif;
     
 }
 
-.grad {
-  background: -webkit-linear-gradient(left, #000000, #AAAAFF, #000000); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(right, #000000, #AAAAFF, #000000); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(right, #000000, #AAAAFF, #000000); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to right, #000000, #AAAAFF, #000000); /* Standard syntax */
+#grad {
+	background: -webkit-linear-gradient(left, #000000, #AAAAFF, #AAAAFF, #AAAAFF, #000000); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, #000000, #AAAAFF, #AAAAFF, #AAAAFF, #000000); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #000000, #AAAAFF, #AAAAFF, #AAAAFF, #000000); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #000000, #AAAAFF, #AAAAFF, #AAAAFF, #000000); /* Standard syntax */
 }
 
 .hovedtekst {
