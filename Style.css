@@ -1,118 +1,138 @@
 body {
 	font-family:sans-serif;
+	width: 70%;
+	margin: 0 auto;
+	height: auto;
 	background: -webkit-linear-gradient(left, #000000, #AAAAFF, #AAAAFF, #AAAAFF, #000000); /* For Safari 5.1 to 6.0 */
 	background: -o-linear-gradient(right, #000000, #AAAAFF, #AAAAFF, #AAAAFF, #000000); /* For Opera 11.1 to 12.0 */
 	background: -moz-linear-gradient(right, #000000, #AAAAFF, #AAAAFF, #AAAAFF, #000000); /* For Firefox 3.6 to 15 */
 	background: linear-gradient(to right, #000000, #AAAAFF, #AAAAFF, #AAAAFF, #000000); /* Standard syntax */
 }
 
-#wrapper {
-    width: 70%;
-    margin: 0 auto;
-    height:auto;
-}
-
-.hovedtekst {
-	width: 98%%;
-	height:70%;
-    margin: 0 auto;
-    background-color:blue;
-    padding:2%;
-}
-
 .header {
 	max-width: 100%;
-    height: auto;
-    width: 100%;
+	height: auto;
+	width: 100%;
 }
 
 .nav {
 	width: 100%;
 	height: 30px;
-    background-color:red;
-    margin-top:-5px;
+	background-color: red;
+	 margin-top: -5px;
 }
 
-.artikler {
-    width: 100%;
+.hovedtekst {
+	width: 96%;
+	height: 70%;
+	margin: 0 auto;
+	background-color:blue;
+	padding: 2%;
 }
 
-.ssw {
-    width:33.3%;
-    height:auto;
-    float:left;
-    margin-bottom:3%; 
+.artikkel_linje {
+	float: brake;
+	width: 100%;
+	height: 50%;
 }
-    
+
+.artikkel_linje1 {
+	float: left;
+	width: 100%;
+}
+
+.bilde_linje1 {
+	width: 100%;
+}
+
+.artikkel_linje2 {
+	float: left;
+	width: 50%;
+}
+
+.bilde_linje2 {
+	width: 100%;
+}
+
+.artikkel_linje3 {
+	float: left;
+	width: 33.3%;
+}
+
+.bilde_linje3 {
+	width: 100%;
+}
+
 .undertekst {
-    width: 98%%;
-    height:70%;
-    margin-top:10px;
-    background-color:green;
-    padding:2%;
+	float: brake;
+	width: 96%;
+	height: 70%;
+	margin-top: 10px;
+	background-color: green;
+	padding: 2%;
 }
 
-/*mobile*/
+/mobile*/
 @media all and (max-width: 350px){
     body{
-        font-size:1.5em;
+        font-size: 1.5em;
     }
 	
 	img{
-		width:100%;
+		width: 100%;
 	}
 
     .hovedtekst {
         display: block;
-        clear:both;
-        width:96%;
-        float:none;
+        clear: both;
+        width: 96%;
+        float: none;
     }
 
     .ssw{
-        display:block;
-        clear:both;
-        width:100%;
-        float:none;
+        display: block;
+        clear: both;
+        width: 100%;
+        float: none;
     }
 	
 	.nav {
-        margin-top:-5px;
+        margin-top: -5px;
 	}
 	
     #wrapper {
 
-        width:100%;
+        width: 100%;
     }
 }
 
 /*tablet*/
 @media all and (min-width: 351px) and (max-width: 700px){
 	body{
-		font-size:1.5em;
+		font-size: 1.5em;
 	}
 
 	img{
-		width:100%;
+		width: 100%;
 	}
     .hovedtekst {
         display: block;
-        clear:both;
-        width:96%;
-        float:none;
+        clear: both;
+        width: 96%;
+        float: none;
     }
 
     .ssw{
-        display:block;
-        clear:both;
-        width:100%;
-        float:none;
+        display: block;
+        clear: both;
+        width: 100%;
+        float: none;
     }
 
 	.nav {
-        margin-top:-5px;
+        margin-top: -5px;
     }
 
     #wrapper {
-        width:80%;
+        width: 80%;
     }
